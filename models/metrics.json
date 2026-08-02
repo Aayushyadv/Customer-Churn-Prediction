@@ -1,0 +1,30 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 72.4,
+  "roc_auc": 0.771,
+  "precision": 48.6,
+  "recall": 57.0,
+  "n_train": 3200,
+  "n_test": 800,
+  "feature_importances": {
+    "Contract": 0.2668,
+    "tenure": 0.1604,
+    "MonthlyCharges": 0.1438,
+    "TotalCharges": 0.1336,
+    "PaymentMethod": 0.0424,
+    "OnlineSecurity": 0.0244,
+    "MultipleLines": 0.0238,
+    "InternetService": 0.0234,
+    "PaperlessBilling": 0.0212,
+    "TechSupport": 0.0205,
+    "Partner": 0.02,
+    "gender": 0.0192,
+    "StreamingMovies": 0.018,
+    "Dependents": 0.0173,
+    "OnlineBackup": 0.0168,
+    "DeviceProtection": 0.0161,
+    "StreamingTV": 0.0149,
+    "SeniorCitizen": 0.0123,
+    "PhoneService": 0.0053
+  }
+}
